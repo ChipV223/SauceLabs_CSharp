@@ -9,10 +9,10 @@ using OpenQA.Selenium;
 using OpenQA.Selenium.Remote;
 using OpenQA.Selenium.Support.UI;
 
-namespace PNUnit_Test
+namespace SauceLabs.NUnitExample
 {
     [TestFixture()]
-    public class SauceTest
+    public class SaucePNUnit_Test
     {
         private IWebDriver driver;
         private string[] testParams;
