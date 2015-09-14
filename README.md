@@ -1,5 +1,4 @@
-# SauceLabs_CSharp
-Sample NUnit/PNUnit code from Selenium with Sauce Labs
+# SauceLabs C# + NUnit/PNUnit Tutorial
 
 ## Running Tests in Parallel with C# Using NUnit & PNUnit on Sauce:
 
