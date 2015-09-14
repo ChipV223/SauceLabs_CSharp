@@ -28,18 +28,12 @@ namespace SauceLabs.NUnitExample
             String platform = testParams[2];
             String deviceName = testParams[3];
             String deviceOrientation = testParams[4];
-            //String platformName = testParams[5];
-            //String platformVersion = testParams[6];
-            //String appiumVersion = testParams[7];
             DesiredCapabilities caps = new DesiredCapabilities();
             caps.SetCapability("browserName", browser);
             caps.SetCapability(CapabilityType.Version, version);
             caps.SetCapability(CapabilityType.Platform, platform);
             caps.SetCapability("deviceName", deviceName);
             caps.SetCapability("device-orientation", deviceOrientation);
-            //caps.SetCapability("platformName", platformName);
-            //caps.SetCapability("platformVersion", platformVersion);
-            //caps.SetCapability("appiumVersion", appiumVersion);
             caps.SetCapability("username", Constants.SAUCE_LABS_ACCOUNT_NAME);
             caps.SetCapability("accessKey", Constants.SAUCE_LABS_ACCOUNT_KEY);
             caps.SetCapability("name", TestContext.CurrentContext.Test.Name);
