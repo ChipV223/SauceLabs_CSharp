@@ -6,9 +6,12 @@ NUnit is a unit-test framework for all .Net languages, written entirely in C# an
 
 ### Prerequisites
 
-You’ll need to have these components installed to set up PNUnit testing on Sauce with C# .NET.
-  1 )Visual Studio
+You’ll need to have these components installed to set up PNUnit testing on Sauce with C# .NET:
+
+  1) Visual Studio
+  
   2) Selenium DLLs for .NET installed and referenced by your project
+  
   3) NUnit + PNUnit Bundle
 
 ####Create the Visual Studio Project:
