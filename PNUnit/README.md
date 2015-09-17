@@ -69,7 +69,7 @@ NOTE: If you want to do mobile testing, you will need to add additional strings 
 
 ### Run the Test
 
-1) Build the project by going Build > Build Solution, or use the CTRL-SHIFT-B shortcut.
+1) Build the project by going Build | Build Solution, or use the CTRL-SHIFT-B shortcut.
 
 2) Change the sauce_test.conf file to specify your project .dll and tests, and the browsers you want to run the tests against. 
 
@@ -77,7 +77,7 @@ NOTE: If you want to do mobile testing, you will need to add additional strings 
 
 4) Start the PNUnit agent.
   * Open an Administrator command prompt.
-  * Go to NUnit > Bin directory.
+  * Go to NUnit | Bin directory.
   * Enter start pnunit-agent.exe agent.conf.
   * This will open up a new PNUnit agent command prompt.
   NOTE: In the agent.conf file you can specify the port on which the PNUnit agent runs. By default, the port is 8080.
