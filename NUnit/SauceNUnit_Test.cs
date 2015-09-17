@@ -6,7 +6,7 @@ using System.Text;
 using System.Net;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Remote;
-using OpenQA.Selenium.Support.UI
+using OpenQA.Selenium.Support.UI;
 
 namespace Saucey_Selenium {
     [TestFixture("chrome", "45", "Windows 7", "", "")]
