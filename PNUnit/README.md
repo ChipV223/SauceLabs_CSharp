@@ -1,4 +1,4 @@
-## Running Tests in Parallel with C# Using PNUnit on Sauce:
+## Running Tests in Parallel with C# Using PNUnit on Sauce Labs:
 
 PNUnit, which stands for “Parallel NUnit,” is an extension of NUnit that allows NUnit tests to run in parallel using a special .conf configuration file that specifies the tests to be executed and where they should run, whether on the same machine or on another machine on the network. For more information and documentation about the framework, as well as how to use it in your testing, you can visit the official NUnit website.
 
