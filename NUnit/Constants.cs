@@ -1,6 +1,6 @@
 using System;
 
-namespace PNUnit_Test
+namespace Saucey_Selenium
 {
     /// <summary>contains constants used by the tests such as the user name and password for the sauce labs</summary>
     internal static class Constants
